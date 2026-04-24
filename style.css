@@ -962,7 +962,7 @@ audio{
     gap: 26px;
     padding: 28px 32px;
     border-radius: 20px;
-    background-image: linear-gradient(135deg, rgb(0, 221, 255) 0%, rgb(180, 0, 255) 50%, rgb(255, 0, 212) 100%);
+    background-image: linear-gradient(90deg, #007bff, #6f42c1, #e83e8c, #ff3b30, #ff8c00);
     background-size: 200% 200%;
     animation: cardGradientShift 6s ease infinite;
     color: #fff;
@@ -1462,7 +1462,7 @@ audio{
     font-size: 0.95rem;
     font-weight: 700;
     color: #fff;
-    background-image: linear-gradient(135deg, rgb(0, 221, 255) 0%, rgb(180, 0, 255) 50%, rgb(255, 0, 212) 100%);
+    background-image: linear-gradient(90deg, #007bff, #6f42c1, #e83e8c, #ff3b30, #ff8c00);
     background-size: 200% 200%;
     animation: ctaGradient 4s ease infinite;
     border: none;
