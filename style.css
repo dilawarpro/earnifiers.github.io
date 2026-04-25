@@ -42,6 +42,47 @@
       transform: rotate(1turn);
     }
   }
+    /* Navbar logo styles (responsive and crisp) */
+        .navbar-brand .earnifiers-nav {
+        width: 90px;              /* Increased size */
+        max-width: 50vw;           /* Allows more responsive scaling */
+        height: auto;
+        display: inline-block;
+        object-fit: contain;
+        border-radius: 0;          /* Remove rounding for cleaner look */
+        padding: 0;                /* Remove padding so logo appears larger */
+        
+        image-rendering: -webkit-optimize-contrast; /* Sharper rendering */
+        image-rendering: crisp-edges;
+        
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0);  /* Prevents blur on some browsers */
+    }
+    
+    /* Large tablets */
+    @media (max-width: 992px) {
+        .navbar-brand .earnifiers-nav { 
+            width: 170px; 
+            max-width: 45vw; 
+        }
+    }
+    
+    /* Tablets */
+    @media (max-width: 768px) {
+        .navbar-brand .earnifiers-nav { 
+            width: 150px; 
+            max-width: 55vw; 
+        }
+    }
+    
+    /* Mobile */
+    @media (max-width: 480px) {
+        .navbar-brand .earnifiers-nav { 
+            width: 80px; 
+            max-width: 65vw; 
+        }
+    }
   
   .modules {
   background: var(--primary-gradient);
